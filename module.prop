@@ -1,0 +1,6 @@
+id=rtwo-restart-sms
+name=rtwo-restart-sms Module
+version=1.0
+versionCode=1
+author=GreyElaina
+description=This is a Magisk module that runs a script at boot.

@@ -14,8 +14,10 @@ done
 
 log_print "Restart SMS Service..."
 
+/system/bin/service call phone 185 i32 0 i32 0
 /system/bin/service call phone 186 i32 0 i32 0
 sleep 2
+/system/bin/service call phone 185 i32 0 i32 0
 /system/bin/service call phone 186 i32 0 i32 1
 
 log_print "Done."
